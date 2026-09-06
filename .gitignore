@@ -1,0 +1,53 @@
+# Secrets
+*.secret
+*.secrets
+.env
+.env.*
+secrets/
+credentials/
+*.pfx
+*.p12
+*.key
+
+# PowerShell
+*.log
+
+# Build output
+bin/
+obj/
+dist/
+out/
+
+# Win32 generated packages
+*.intunewin
+
+# Temporary files
+temp/
+tmp/
+*.tmp
+
+# IDE
+.vscode/
+.idea/
+
+# OS
+.DS_Store
+Thumbs.db
+
+# Test output
+TestResults/
+coverage/
+
+# Terraform
+.terraform/
+*.tfstate
+*.tfstate.*
+crash.log
+crash.*.log
+
+# Certificates
+*.cer
+*.crt
+
+# Local configuration
+local.settings.json
